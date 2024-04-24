@@ -1,18 +1,20 @@
 [![license](https://img.shields.io/badge/License-BSD%202--Clause-blue.svg)](https://github.com/bionicvisionlab/2024-Temporal-Model/blob/master/LICENSE)
 
 
-# Predicting the temporal dynamics of prosthetic vision
+# Predicting the Temporal Dynamics of Prosthetic Vision
 
-Code for "Predicting the temporal dynamics of prosthetic vision" at IEEE EMBC 2024.
+Code for "Predicting the Temporal Dynamics of Prosthetic Vision" at IEEE EMBC 2024.
 
 Please cite as:
 
-> Y Hou, L Pullela, J Su, S Aluru, S Sista, X Lu, M Beyeler (2024). Predicting the temporal dynamics of prosthetic vision. *46th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (IEEE EMBC)*
+> Y Hou, L Pullela, J Su, S Aluru, S Sista, X Lu, M Beyeler (2024). Predicting the Temporal Dynamics of Prosthetic Vision. *46th Annual International Conference of the IEEE Engineering in Medicine & Biology Society (IEEE EMBC)*
 
 Note: Y Hou and L Pullela contribute equally to this work.
 
+In this paper, we introduced two computational models designed to accurately predict phosphene fading and persistence under varying stimulus conditions, cross-validated on behavioral data reported by nine users of the Argus II Retinal Prosthesis System.
+
 ## Setup
-To run the notebook, please install the required Python packages via pip:
+To run the notebooks, please install the required Python packages via pip:
 
 ```
 pip install -r requirements.txt
