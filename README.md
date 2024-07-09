@@ -3,7 +3,7 @@
 
 # Predicting the Temporal Dynamics of Prosthetic Vision
 
-Code for "Predicting the Temporal Dynamics of Prosthetic Vision" at IEEE EMBC 2024.
+Code for "[Predicting the Temporal Dynamics of Prosthetic Vision](https://arxiv.org/abs/2404.14591)" at IEEE EMBC 2024.
 
 Please cite as:
 
