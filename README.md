@@ -20,6 +20,28 @@ To run the notebooks, please install the required Python packages via pip:
 pip install -r requirements.txt
 ```
 
+## Data availability
+To load the data from Perez Fornos et al., 2012, please install the stable or bleeding-edge version of [![pulse2percept](https://pulse2percept.readthedocs.io/en/latest/index.html)] via pip:
+```
+pip install pulse2percept
+```
+
+or
+
+```
+pip install git+https://github.com/pulse2percept/pulse2percept
+```
+
+Then load the dataset as Pandas dataframe:
+```
+import numpy as np
+import matplotlib.pyplot as plt
+from pulse2percept.datasets import load_perezfornos2012
+
+data = load_perezfornos2012()
+print(data)
+```
+
 ## File description
 - ```baseline_training.ipynb``` and ```baseline_evaluation.ipynb```: baseline model training and evalution. Code adapted from Avraham, David, et al. “Retinal Prosthetic Vision Simulation: Temporal Aspects.” Journal of Neural Engineering, vol. 18, no. 4, IOP Publishing, Aug. 2021, p. 0460d9, doi:10.1088/1741-2552/ac1b6c.
 - ```exponential_cross_subject.ipynb```: Exponential model trained and evaluted using leave-one-subject-out cross-validation. 
