@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 
 ## Data availability
-To load the data from Perez Fornos et al., 2012, please install the stable or bleeding-edge version of [![pulse2percept](https://pulse2percept.readthedocs.io/en/latest/index.html)] via pip:
+To load the data from Perez Fornos et al., 2012, please install the stable or bleeding-edge version of [pulse2percept](https://pulse2percept.readthedocs.io/en/latest/index.html) via pip:
 ```
 pip install pulse2percept
 ```
